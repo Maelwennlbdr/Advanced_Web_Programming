@@ -1,0 +1,160 @@
+body {
+    background-image: url("../assets/image/blue-water-texture.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+    background-color: #FEFAE0;
+}
+
+.content {
+    padding: 10px;
+    line-height: 1.4em;
+}
+
+#banner {
+    width: 100%;
+
+}
+
+header {
+    height: 475px;
+}
+
+header,
+nav,
+footer {
+    background-color: #CCD5AE;
+    color: #6c584c;
+
+}
+
+nav>ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav>ul>li {
+    margin-right: 40px;
+    text-transform: uppercase;
+    float: left;
+    list-style-type: none;
+}
+
+a:link {
+    color: #7f5539;
+}
+
+a:visited {
+    color: #774936;
+}
+
+a:hover {
+    color: #b08968;
+}
+
+a:active {
+    color: #5e503f;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #344e41;
+}
+
+.img-centre {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    display: block;
+    margin: auto;
+}
+
+audio,
+video {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    border: solid 1px;
+}
+
+td,
+th {
+    border: solid 1px;
+    padding: 2px 5px;
+    background-color: #E9EDC9;
+}
+
+table th,
+tfoot td {
+    text-transform: uppercase;
+    background-color: #CCD5AE;
+    color: #7f5539;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+iframe {
+    margin: 10px;
+    display: block;
+    margin: auto;
+}
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: solid 1px;
+    background-color: #FAEDCD;
+}
+
+legend {
+    font-style: italic;
+    background-color: #c6ac8f;
+    color: #6c584c;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    border: solid 1px;
+    padding: 5px;
+    background-color: #CCD5AE;
+    color: #000000;
+}
+
+input[type="submit"]:hover {
+    background-color: #E9EDC9;
+    color: #6c584c;
+    cursor: pointer;
+}
