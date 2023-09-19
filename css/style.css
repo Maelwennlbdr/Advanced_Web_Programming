@@ -1,9 +1,19 @@
+/*Q.2,
+    change text color
+    add a background image
+    change the font
+    delete margin*/
 body {
     background-image: url("../assets/image/blue-water-texture.jpg");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
+/*Q.3,
+    change width of the div
+    put margin on top and bottom
+    center that div
+    change background color*/
 .container {
     max-width: 1300px;
     margin-top: 5px;
@@ -12,20 +22,28 @@ body {
     background-color: #FEFAE0;
 }
 
+/*Q.4
+    change the line height
+    add padding*/
 .content {
     padding: 10px;
     line-height: 1.4em;
 }
 
+/*make the banner take all the space of the div*/
 #banner {
     width: 100%;
 
 }
 
+/*make sure the nav have a green background*/
 header {
     height: 475px;
 }
 
+/*Q.5
+    change the background color
+    change the text color*/
 header,
 nav,
 footer {
@@ -34,12 +52,19 @@ footer {
 
 }
 
+/*Q.6
+    delete margin
+    add padding*/
 nav>ul {
     margin: 0;
     padding: 5px;
     list-style-type: none;
 }
 
+/*Q.7
+    display horizontally
+    add margin to the right
+    put text in uppercase*/
 nav>ul>li {
     margin-right: 40px;
     text-transform: uppercase;
@@ -47,26 +72,40 @@ nav>ul>li {
     list-style-type: none;
 }
 
+/*Q.8
+    change text color*/
 a:link {
     color: #7f5539;
 }
 
+/*Q.8
+    change text color*/
 a:visited {
     color: #774936;
 }
 
+/*Q.8
+    change text color*/
 a:hover {
     color: #b08968;
 }
 
+/*Q.8
+    change text color*/
 a:active {
     color: #5e503f;
 }
 
+/*Q.9
+    delete the underline*/
 a {
     text-decoration: none;
 }
 
+/*Q.10
+    add margin
+    put text in uppercase
+    change text color*/
 h1,
 h2,
 h3 {
@@ -75,6 +114,10 @@ h3 {
     color: #344e41;
 }
 
+/*Q.11
+    center the image
+    pur margin on the top and bottom
+    put padding*/
 .img-centre {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -83,6 +126,9 @@ h3 {
     margin: auto;
 }
 
+/*Q.12
+    center the audio and/or video
+    put margin*/
 audio,
 video {
     display: block;
@@ -91,6 +137,11 @@ video {
     margin-bottom: 10px;
 }
 
+/*Q.13
+    change the width
+    center the table
+    put margin on top and bottom
+    make the border collapsed*/
 table {
     width: 800px;
     margin: auto;
@@ -100,6 +151,10 @@ table {
     border: solid 1px;
 }
 
+/*Q.14
+    put a border
+    put padding
+    change background color*/
 td,
 th {
     border: solid 1px;
@@ -107,6 +162,10 @@ th {
     background-color: #E9EDC9;
 }
 
+/*Q.15
+    put text in uppercase
+    change background color
+    change text color*/
 table th,
 tfoot td {
     text-transform: uppercase;
@@ -114,22 +173,36 @@ tfoot td {
     color: #7f5539;
 }
 
+/*Q.16
+    make text bold*/
 dt {
     font-weight: bold;
 }
 
+/*Q.17
+    change text size
+    align text
+    change padding*/
 footer {
     font-size: 80%;
     text-align: center;
     padding: 1px 0;
 }
 
+/*Q.18
+    add margin
+    center the iframe*/
 iframe {
     margin: 10px;
     display: block;
     margin: auto;
 }
 
+/*Q.19
+    change width
+    add margin
+    add border
+    change background color*/
 fieldset {
     width: 500px;
     margin: 20px auto;
@@ -137,6 +210,12 @@ fieldset {
     background-color: #FAEDCD;
 }
 
+/*Q.20
+    put text in italic
+    change text color and background color
+    change margin
+    change padding
+    give round border*/
 legend {
     font-style: italic;
     background-color: #c6ac8f;
@@ -146,6 +225,11 @@ legend {
     border-radius: 20px;
 }
 
+/*Q.21
+    change border
+    add padding
+    change background color
+    change text color*/
 input[type="submit"] {
     border: solid 1px;
     padding: 5px;
@@ -153,6 +237,9 @@ input[type="submit"] {
     color: #000000;
 }
 
+/*Q.22
+    change background and text color when you are on the button
+    change the mouse pointer when you are on the button*/
 input[type="submit"]:hover {
     background-color: #E9EDC9;
     color: #6c584c;
